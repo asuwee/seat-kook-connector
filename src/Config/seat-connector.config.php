@@ -3,7 +3,7 @@
 /**
  * This file is part of SeAT KOOK Connector.
  *
- * Copyright (C) 2019, 2020  FeiBam Tutsimo <asuwee@outloo.com>
+ * Copyright (C) 2019, 2020  asuwee Tutsimo <asuwee@outloo.com>
  *
  * SeAT KOOK Connector  is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 return [
     'name'     => 'KOOK',
     'icon'     => 'fab fa-qq',
-    'client'   => \FeiBam\Seat\Connector\Drivers\KOOK\Driver\KOOKClient::class,
+    'client'   => \asuwee\Seat\Connector\Drivers\KOOK\Driver\KOOKClient::class,
     'settings' => [
        [
         'name' => 'allow_modification_bind_infomation',
