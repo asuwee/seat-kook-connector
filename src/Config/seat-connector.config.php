@@ -1,16 +1,16 @@
 <?php
 
 /**
- * This file is part of SeAT QQ Connector.
+ * This file is part of SeAT KOOK Connector.
  *
- * Copyright (C) 2019, 2020  FeiBam Tutsimo <feibam19690104@gmail.com>
+ * Copyright (C) 2019, 2020  FeiBam Tutsimo <asuwee@outloo.com>
  *
- * SeAT QQ Connector  is free software: you can redistribute it and/or modify
+ * SeAT KOOK Connector  is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * any later version.
  *
- * SeAT QQ Connector is distributed in the hope that it will be useful,
+ * SeAT KOOK Connector is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.

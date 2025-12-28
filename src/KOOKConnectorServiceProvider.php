@@ -43,10 +43,10 @@ class KOOKConnectorServiceProvider extends AbstractSeatPlugin {
 
     public function register(){
         $this->mergeConfigFrom(
-            __DIR__ . '/Config/KOOK-connector.config.php', 'KOOK-connector.config');
+            __DIR__ . '/Config/kook-connector.config.php', 'kook-connector.config');
 
         $this->mergeConfigFrom(
-            __DIR__ . '/Config/seat-connector.config.php', 'seat-connector.drivers.KOOK');
+            __DIR__ . '/Config/seat-connector.config.php', 'seat-connector.drivers.kook');
     }
 
     private function addRoutes(){
@@ -56,12 +56,12 @@ class KOOKConnectorServiceProvider extends AbstractSeatPlugin {
     }
 
     private function addTranslations(){
-        $this->loadTranslationsFrom(__DIR__ . '/resources/lang', 'seat-KOOK-connector');
+        $this->loadTranslationsFrom(__DIR__ . '/resources/lang', 'seat-kook-connector');
     }
 
     public function addViews(){
 
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'seat-KOOK-connector');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'seat-kook-connector');
     }
 
     public function getName(): string{
@@ -76,7 +76,7 @@ class KOOKConnectorServiceProvider extends AbstractSeatPlugin {
      * @return string
      */
     public function getPackageRepositoryUrl(): string{
-        return 'https://github.com/asuwee/seat-KOOK-connector';
+        return 'https://github.com/asuwee/seat-kook-connector';
     }
 
     /**
@@ -87,7 +87,7 @@ class KOOKConnectorServiceProvider extends AbstractSeatPlugin {
      * @return string
      */
     public function getPackagistPackageName(): string{
-        return 'seat-KOOK-connector';
+        return 'seat-kook-connector';
     }
 
     /**

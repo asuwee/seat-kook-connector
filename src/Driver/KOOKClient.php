@@ -1,6 +1,6 @@
 <?php
 
-namespace FeiBam\Seat\Connector\Drivers\KOOK\Driver;
+namespace asuwee\Seat\Connector\Drivers\KOOK\Driver;
 
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
